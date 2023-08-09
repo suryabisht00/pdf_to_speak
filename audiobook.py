@@ -3,7 +3,7 @@ import pyttsx3
 
 
 if __name__ == "__main__":
-    pdf_file_path = 'Introduction to Algorithms, Third Edition ( PDFDrive ).pdf'
+    pdf_file_path = 'enter your pdf path name'# file end with .pdf
     pdf_file = open(pdf_file_path, 'rb')
     pdf_reader = PyPDF2.PdfReader(pdf_file)
 
