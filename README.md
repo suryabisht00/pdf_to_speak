@@ -68,4 +68,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Feel free to modify and expand this template according to your program's structure and additional details you want to include.
-Make sure to replace placeholders like `enter your pdf path name` with the actual filename of your program and provide accurate instructions for running the program and installing dependencies.
