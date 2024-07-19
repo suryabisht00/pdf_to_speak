@@ -22,7 +22,7 @@ $ git clone https://github.com/suryabisht00/pdf_to_speak.git
 
 2. Install the required Python dependencies.
 ```
-cd pdf_to_speak
+$ cd pdf_to_speak
 $ pip install -r requirements.txt
 ```
 
