@@ -16,23 +16,35 @@ This README will guide you through the features and how to use them effectively.
 ## Getting Started
 
 1. Clone or download the repository to your local machine.
+```
+$ git clone https://github.com/suryabisht00/pdf_to_speak.git
+```
 
-2. Install the required Python dependencies. This program uses the following libraries:
+2. Install the required Python dependencies.
+```
+$ cd pdf_to_speak
+$ pip install -r requirements.txt
+```
+
+ This program uses the following libraries:
 
 3.  `PyPDF2` for working with PDF files.
 
-
- -----  You can install them using the following command:
-   
-   pip install PyPDF2
-   pip install pyttsx3
-
 4. Run the program:
+```
+$ python3 audiobook.py
+```
 
 ## Usage
 
-Upon running the program, you will be presented with the following options:
+Upon running the program,
+![run the program](/demo/python_audiobook.png) 
 
+and then enter the file path
+![enter path](/demo/enter_path.png)
+
+you will be presented with the following options:
+![main menu](/demo/menu.png)
 1. **Show Index**: Display a simple index of the available options.
 2. **Read Specific Page**: Enter the page number you want to read. The program will display the text content of that page.
 3. **Start from Specific Page to Last Page**: Enter the page number you want to start reading from. The program will read the content from that page to the last page.
@@ -56,4 +68,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Feel free to modify and expand this template according to your program's structure and additional details you want to include.
-Make sure to replace placeholders like `enter your pdf path name` with the actual filename of your program and provide accurate instructions for running the program and installing dependencies.
